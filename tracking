@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<atom:entry xmlns:atom="Declare the path">
+    <atom:category term="demoCompany"/>
+    <atom:category term="demoWarehouse"/>
+    <content type="application/xml">
+        <trackingevent>
+            <trackingid>TRACK123456789</trackingid>
+            <businessunit>DEMO_UNIT</businessunit>
+            <servicetype>EXPRESS_SERVICE</servicetype>
+            <trackingstatus>
+                <agent>WAREHOUSE_AGENT</agent>
+                <agentname>Demo Agent Ltd</agentname>
+                <trackingstatus>Packed</trackingstatus>
+                <trackingstatusdescription>Parcel has been labelled and packed</trackingstatusdescription>
+                <statusdatetime>2024-01-01T09:30:00Z</statusdatetime>
+            </trackingstatus>
+        </trackingevent>
+    </content>
+</atom:entry>
